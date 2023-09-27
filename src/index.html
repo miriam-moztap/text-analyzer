@@ -7,7 +7,34 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<header>
+  <h1>Analizador de texto</h1>
+  <link rel="stylesheet" href="style.css" />
+</header>
+
 <body>
+  <textarea name="user_input" >Introduce tu texto aquí</textarea>
+  
+  <td>  
+    <ul>
+      <li class="counter" data-testid="word-count">palabra: </li>
+      <li class="counter" data-testid="character-count">caracteres: </li>
+      <li class="counter" data-testid="character-no-spaces-count">caracteres (no espacios/signos): </li>
+      <li class="counter" data-testid="number-count">Recuento de números: </li>
+      <li class="counter" data-testid="number-sum">Suma total de números: </li>
+      <li class="counter" data-testid="word-length-average">Longitud media de palabras: </li>
+    </ul>
+  </td>
+
+  <button id="reset-button">Limpiar campos</button>
+  <link rel="stylesheet" href="style.css"/>
+
   <script src="index.js" type="module"></script>
 </body>
+
+<footer>
+  <p>
+    Miriam Felipe Monroy
+  </p>
+</footer>
 </html>

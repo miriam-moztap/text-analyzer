@@ -1,0 +1,47 @@
+header {
+    color: #363B3F;
+    font-size: 0.8cm;
+    position: absolute;
+    top: 2%;
+    left: 32%
+    }
+
+textarea[name="user_input"]{
+  position:absolute;
+  top: 21%;
+  left: 32%;
+  font-family: Courier, sans-serif;
+  height: 10em;
+  width: 500px;
+  resize: none;
+}
+
+.counter {
+    background: #8ab9df;
+    border: 2px solid #6e93b2;
+    padding: 5px;
+    margin: 5px;
+    
+  }
+  
+ 
+ ul {
+  position: absolute;
+  top: 42%; /*se puede usar margin-left, margin-right= */
+  left: 31.5%;
+}
+
+button[id="reset-button"]{
+  background: powderblue;
+  border:#e0ceef;
+  margin: 17.5cm;
+  padding: 10px;
+  position:absolute;
+  
+}
+
+footer {
+  font-size: 0.5cm;
+  position: absolute;
+  top: 100%;
+}
