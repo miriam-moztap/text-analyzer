@@ -18,12 +18,12 @@ clearbutton.addEventListener("click", () => {
 const text=document.querySelector('textarea[name="user-input"]');
 textArea.addEventListener('input', function(){
   
-  document.querySelector('[data-testid="word-count"]').innerHTML='palabras: ' + analyzer.getWordCount(text.value);
-  document.querySelector('[data-testid="character-count"]').innerHTML='caracteres: ' + analyzer.getCharacterCount(text.value);
-  document.querySelector('[data-testid="character-no-spaces-count"]').innerHTML='caracteres sin espacios: ' + analyzer.getCharacterCountExcludingSpaces(text.value);
-  document.querySelector('[data-testid="number-count"]').innerHTML='números: ' + analyzer.getNumberCount(text.value);
-  document.querySelector('[data-testid="number-sum"]').innerHTML='suma de números: ' + analyzer.getNumberSum(text.value);
-  document.querySelector('[data-testid="word-length-average"]').innerHTML='promedio por palabra: ' + analyzer.getAverageWordLength(text.value);
+  document.querySelector('[data-testid="word-count"]').innerHTML='Palabras: ' + analyzer.getWordCount(text.value);
+  document.querySelector('[data-testid="character-count"]').innerHTML='Caracteres: ' + analyzer.getCharacterCount(text.value);
+  document.querySelector('[data-testid="character-no-spaces-count"]').innerHTML='Caracteres sin espacios: ' + analyzer.getCharacterCountExcludingSpaces(text.value);
+  document.querySelector('[data-testid="number-count"]').innerHTML='Números: ' + analyzer.getNumberCount(text.value);
+  document.querySelector('[data-testid="number-sum"]').innerHTML='Suma de números: ' + analyzer.getNumberSum(text.value);
+  document.querySelector('[data-testid="word-length-average"]').innerHTML='Promedio por palabra: ' + analyzer.getAverageWordLength(text.value);
 
 });
 
