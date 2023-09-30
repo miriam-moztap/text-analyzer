@@ -5,12 +5,12 @@ const textArea=document.querySelector('textarea[name="user-input"]');
 const clearbutton=document.getElementById("reset-button");
 clearbutton.addEventListener("click", () => {    
   textArea.value=''
-  document.querySelector('[data-testid="word-count"]').innerHTML='palabras: ' + 0;
-  document.querySelector('[data-testid="character-count"]').innerHTML='caracteres: ' + 0;
-  document.querySelector('[data-testid="character-no-spaces-count"]').innerHTML='caracteres sin espacios: ' +0;
-  document.querySelector('[data-testid="number-count"]').innerHTML='números: ' + 0;
-  document.querySelector('[data-testid="number-sum"]').innerHTML='suma de números: ' + 0;
-  document.querySelector('[data-testid="word-length-average"]').innerHTML='promedio por palabra: ' + 0;
+  document.querySelector('[data-testid="word-count"]').innerHTML='Palabras: ' + 0;
+  document.querySelector('[data-testid="character-count"]').innerHTML='Caracteres: ' + 0;
+  document.querySelector('[data-testid="character-no-spaces-count"]').innerHTML='Caracteres sin espacios: ' +0;
+  document.querySelector('[data-testid="number-count"]').innerHTML='Números: ' + 0;
+  document.querySelector('[data-testid="number-sum"]').innerHTML='Suma de números: ' + 0;
+  document.querySelector('[data-testid="word-length-average"]').innerHTML='Promedio por palabra: ' + 0;
 
 });
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
