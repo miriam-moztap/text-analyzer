@@ -1,6 +1,6 @@
 ## Descripción de scripts / archivos
 
-* Esta aplicación es un analizador de texto con el que el usuario podrá introducir un texto y analizarlo mediante el análisis y la obtención de resultados de los siguientes parámetros: 
+* Esta aplicación es un analizador de texto con el que el usuario podrá introducir un texto y obtener los resultados de las siguientes métricas: 
 
 
 Recuento de palabras: la aplicación cuenta el número de palabras en el texto de entrada y devuelve el resultado en el recuadro "Palabras".
