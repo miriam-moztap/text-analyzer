@@ -4,11 +4,11 @@
 
 
 Recuento de palabras: la aplicación cuenta el número de palabras en el texto de entrada y devuelve el resultado en el recuadro "Palabras".
-Recuento de caracteres: la aplicación cuenta el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación. El resultado se muestra en el recuadro "Caracteres con espacios".
+Recuento de caracteres: la aplicación cuenta el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación. El resultado se muestra en el recuadro "Caracteres".
 Recuento de caracteres excluyendo espacios y signos de puntuación: la aplicación cuenta el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación. El resultado se muestra en la casilla "Caracteres sin espacios".
 Recuento de números: la aplicación cuenta cuántos números hay en el texto de entrada y muestra el resultado en la casilla "Números".
 Suma total de números: la aplicación suma todos los números que hay en el texto de entrada y muestra el resultado en el recuadro "Suma de números"
-Longitud media de las palabras: la aplicación calcula la longitud media de las palabras en el texto de entrada y muestra el resultado en la casills "Longitud promedio por palabra"
+Longitud media de las palabras: la aplicación calcula la longitud media de las palabras en el texto de entrada y muestra el resultado en la casills "promedio por palabra"
 
 Se agrega el botón "Limpiar métricas" para limpiar los campos contabilizados, así como el campo de texto. 
 

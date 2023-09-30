@@ -27,3 +27,15 @@ textArea.addEventListener('input', function(){
 
 });
 
+/*function createBurst(){
+  let animContainer=document.querySelector(".animation-container");
+  let burst=document.querySelector(".burst");
+
+  burst.style.top=Math.random() * innerHeight + "px";
+  burst.style.top=Math.random() * innerWidth + "px";
+
+  let burstClone=burst.cloneNode(true);
+  animContainer.appendChild(burstClone);
+
+}
+setInterval(createBurst, 1);*/
